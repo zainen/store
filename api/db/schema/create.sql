@@ -19,8 +19,6 @@ CREATE TABLE products (
   owner_id INT NOT NULL
 );
 
-
-
 INSERT INTO users(email, password, role)
 VALUES 
 ('1234@1234.com', '1234', 'member'),
@@ -37,4 +35,5 @@ VALUES
 ('Nice cat', 'https://i.imgur.com/wYTCtRu.jpg', 'The nicest of cats', 200.00, 1, 1),
 ('Awkward Spoons', 'https://i.imgur.com/Zyfkk7B.jpeg', 'Not super comfy in the hands but look good!', 50.00, 30, 2),
 ('Game of Codes', 'https://i.imgur.com/E7gNfYa.jpg', 'I wonder why my e key is stuck', 100.00, 1, 1),
-('Zelda', 'https://i.imgur.com/HPEwq3C.jpg', 'Tri-Force', 49.99, 5, 1);
+('Zelda', 'https://i.imgur.com/HPEwq3C.jpg', 'Tri-Force', 49.99, 5, 1),
+('Bed', 'https://i.imgur.com/ImJxCAJ.jpg', 'Super Comfy', 100.00, 1, 1);
