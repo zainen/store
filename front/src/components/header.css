@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  width: auto;
+  background-color: rgba(236, 224, 206, 0.918);
+  padding: 0 1em;
+  color: rgb(19, 12, 4);
+}
+.cart-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart {
+  height: 2rem;
+  width: 2rem;
+}
+.cart-title {
+  padding-right: 1em;
+}

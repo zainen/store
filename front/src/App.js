@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 import ProductListings from './components/ProductListings'
+import Header from './components/Header'
 
 
 
@@ -48,6 +49,7 @@ function App() {
 console.log(products)
 return (
     <>
+      <Header/>
       {items}
     </>
   );
